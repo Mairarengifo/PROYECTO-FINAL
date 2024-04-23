@@ -1,0 +1,32 @@
+/* Mapa de colores */
+$colors: (
+  primary: #ef9acc,
+  secondary: #ef8354,
+  text: #feece2,
+  background: rgb(215, 207, 223),
+  link: white,
+  link-hover: #c81ba0,
+  footer-background: #ef9acc,
+  footer-text: #feece2,
+  button-background: #535c91,
+  button-text: #feece2,
+  button-hover: #3c043f
+);
+
+/* Mapa de fuentes */
+$fonts: (
+  body: Arial
+);
+
+/* Mapa de dimensiones */
+$dimensions: (
+  max-width: 10000px,
+  button-width: 150px,
+  button-height: 50px,
+  button-padding: 20px 42px,
+  button-margin: 7px 5px,
+  button-border-radius: 10px,
+  mobile-width: 600px,
+  mobile-button-image-width: 80px,
+  mobile-header-font-size: 24px
+);

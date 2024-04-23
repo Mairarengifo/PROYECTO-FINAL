@@ -1,0 +1,95 @@
+/* Estilos del encabezado */
+
+h1 {
+    color: rgb(215, 207, 223);
+    font-size: 36px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 10000px;
+    margin: auto;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+}
+
+main {
+    height: 500px;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef9acc;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #feece2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #c81ba0;
+}
+
+.boton-estilo {
+    height: 70px;
+}
+
+/* Estilos adicionales para hacer que el encabezado sea más grande en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+#formularioContacto {
+    display: none;
+}
+
+/* Añade display:flex al contenedor que quieres flexibilizar */
+.menu {
+    display: flex;
+    justify-content: center; /* Alinea los elementos flexibles en el centro horizontalmente */
+}
+
+
+.menu li {
+    display: flex;
+    align-items: center; /* Alinea los elementos flexibles verticalmente al centro */
+    margin: 0 10px; /* Ajusta el margen entre los elementos */
+}
+
+/* Elimina display:block y ajusta el padding en los elementos de la lista */
+.menu li a {
+    color: #FEECE2;
+    text-decoration: none;
+    padding: 14px 16px;
+}
