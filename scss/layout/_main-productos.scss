@@ -4,7 +4,7 @@ h1 {
 }
 
 p{
-    color:bisque;
+    color:rgb(65, 12, 81);
 }
 body{
   
@@ -31,3 +31,80 @@ body{
         height: auto;
     }
 }
+/****productos*/
+
+// Estilos generales para el cuerpo del documento
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  // Estilos para el encabezado
+  header {
+    text-align: center;
+  }
+  
+  // Estilos para el contenido principal
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    // Estilos para la sección de productos
+    h1 {
+      margin-bottom: 20px;
+    }
+  
+    // Estilos para el contenedor de las tarjetas de productos
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  
+      // Estilos para cada tarjeta de producto
+      .card {
+        width: 300px;
+        border: 1px solid #290635;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+  
+        // Estilos para la imagen dentro de la tarjeta
+        img {
+          width: 100%;
+          border-radius: 8px;
+          margin-bottom: 10px;
+        }
+  
+        // Estilos para el título dentro de la tarjeta
+        h2 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+          color: rgb(35, 19, 43);
+        }
+  
+        // Estilos para el párrafo dentro de la tarjeta
+        p {
+          font-size: 1rem;
+          margin-bottom: 15px;
+        }
+        }
+      }
+    }
+  
+    // Estilos adicionales para otras secciones dentro de main
+    section {  
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+  
+  // Estilos para el pie de página
+  footer {
+    text-align: center;
+  }
+  

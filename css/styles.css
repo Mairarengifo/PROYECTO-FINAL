@@ -134,7 +134,6 @@ body {
   list-style-type: none;
   margin: 20;
   padding: 24;
-  overflow: hidden;
   background-color: #7153c3;
   width: 100%; }
 
@@ -233,7 +232,7 @@ h1 {
   font-size: 36px; }
 
 p {
-  color: bisque; }
+  color: #410c51; }
 
 body {
   background-image: url(https://www.shutterstock.com/image-photo/laptop-half-closed-dark-colourful-260nw-2300146017.jpg);
@@ -258,6 +257,53 @@ body {
   .boton-estilo img {
     width: 80px;
     height: auto; } }
+
+/****productos*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+header {
+  text-align: center; }
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  main h1 {
+    margin-bottom: 20px; }
+  main .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; }
+    main .card-container .card {
+      width: 300px;
+      border: 1px solid #290635;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center; }
+      main .card-container .card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px; }
+      main .card-container .card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #23132b; }
+      main .card-container .card p {
+        font-size: 1rem;
+        margin-bottom: 15px; }
+
+section {
+  text-align: center;
+  margin-bottom: 20px; }
+
+footer {
+  text-align: center; }
 
 main {
   height: 500px;
