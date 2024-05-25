@@ -6,19 +6,39 @@
     <meta name="description" content="Descubre nuestros servicios de aseguramiento de calidad, donde garantizamos un software seguro y de buena calidad. Nuestro equipo experto se asegurará de que tus proyectos cumplan con los más altos estándares de calidad y seguridad.">
     <title>Servicios</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        li:hover{
+            background-color: #d63384!important;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <!-- Etiqueta que refiere a una barra de navegación -->
-            <ul class="menu">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="#">SERVICIOS</a></li>
-                <li><a href="./productos.html">PRODUCTOS</a></li>
-                <li><a href="./acercademr.html">ACERCA DE MR</a></li>
-                <li><a href="./blog.html">BLOG</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #7153c3 !important;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+                <ul class="navbar-nav d-flex justify-content-center">
+                    <li class="nav-item" style="margin: 0 10px !important">
+                        <a class="nav-link" style="color: white !important" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item" style="margin: 0 10px !important">
+                        <a class="nav-link" style="color: white !important" href="#">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item" style="margin: 0 10px !important">
+                        <a class="nav-link" style="color: white !important" href="./productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item" style="margin: 0 10px !important">
+                        <a class="nav-link" style="color: white !important" href="./acercademr.html">ACERCA DE MR</a>
+                    </li>
+                    <li class="nav-item" style="margin: 0 10px !important">
+                        <a class="nav-link" style="color: white !important" href="./blog.html">BLOG</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     
@@ -74,5 +94,8 @@
             document.getElementById("formularioContacto").style.display = "block";
         });
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
